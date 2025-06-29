@@ -1,7 +1,5 @@
 
-/* ============================
-   القواعد العامة - General
-   ============================ */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,9 +8,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ============================
-   شريط التنقل - Navigation
-   ============================ */
+
 nav {
   position: fixed;
   top: 0;
@@ -36,7 +32,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: white;
   font-weight: 500;
   font-size: 16px;
   transition: color 0.3s;
@@ -48,9 +44,7 @@ nav ul li a.active {
   border-bottom: 2px solid #6a5acd;
 }
 
-/* ============================
-   الصفحة الرئيسية - Home
-   ============================ */
+
 .hero {
   height: 100vh;
   background: linear-gradient(to right, #cce0f5, #e6ccff, #d9d9d9);
@@ -78,19 +72,19 @@ nav ul li a.active {
   font-size: 64px;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
-  margin-bottom: 50px; /* مساحة بين الاسم والزر */
-  background: linear-gradient(to right, #4b3f94, #00457c); /* أغمق شوي */
+  margin-bottom: 50px; 
+  background: linear-gradient(to right, #4b3f94, #00457c); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  white-space: nowrap; /* يمنع الانكسار لسطر ثاني */
+  white-space: nowrap; 
   position: relative;
   display: inline-block;
   overflow: hidden;
 }
 
-/* لمعة خفيفة تمر فوق الاسم */
+
 .main-name::before {
   content: '';
   position: absolute;
@@ -149,13 +143,11 @@ nav ul li a.active {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 
 
-  /* قناع تدرج دائري لدمج كل الإطار */
+  
   -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 130%);
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);
 }
-/* ============================
-   قسم about
-   ============================ */
+
 
 #about {
   background-color: #d9d9d9;
@@ -165,7 +157,7 @@ nav ul li a.active {
 }
 
 #about h2 {
-  color: #0077b6; /* أزرق أنيق */
+  color: #0077b6; 
   font-size: 32px;
   text-align: center;
   margin-bottom: 10px;
@@ -187,11 +179,9 @@ nav ul li a.active {
   
 }
 
-/* ============================
-   قسم Skills
-   ============================ */
+
 #skills {
-  background-color: #d9d9d9; /* رمادي فاتح */
+  background-color: #d9d9d9; 
   padding: 60px 10%;
   border-radius: 8px;
   margin: 40px 0;
@@ -200,14 +190,14 @@ nav ul li a.active {
 }
 
 #skills h2 {
-  color: #4B0082; /* بنفسجي غامق */
+  color: #4B0082; 
   font-size: 32px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 #skills h3 {
-  color: #333366; /* أزرق غامق شوي */
+  color: #333366; 
   font-size: 22px;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -225,9 +215,7 @@ nav ul li a.active {
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* ============================
-   قسم Projects
-   ============================ */
+
 #projects {
   background-color: #d9d9d9;
   padding: 60px 10%;
@@ -236,7 +224,7 @@ nav ul li a.active {
 }
 
 #projects h2 {
-  color: #005f3c; /* أزرق ملكي أو بنفسجي أفتح */
+  color: #005f3c; 
   font-size: 32px;
   margin-bottom: 40px;
   text-align: center;
@@ -293,20 +281,18 @@ nav ul li a.active {
 }
 
 
-/* ============================
-   قسم Education
-   ============================ */
+
 #education {
   background-color: #d9d9d9;
   padding: 60px 10%;
   margin: 40px 0;
-  border-left: 6px solid #6a5acd; /* خط ديكوري */
+  border-left: 6px solid #6a5acd; 
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  scroll-margin-top: 160px; /* يدفع القسم للأسفل عند التنقل */
+  scroll-margin-top: 160px; 
 }
 
 #education h2 {
-  color: #003366; /* أزرق ملكي */
+  color: #003366;
   font-size: 32px;
   margin-bottom: 25px;
   text-align: center;
@@ -318,8 +304,7 @@ nav ul li a.active {
   line-height: 1.8;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  font-style: italic; /* خط مائل ناعم */
-}
+  font-style: italic; }
 
 #education .grad-date {
   color: #0097a7;
@@ -330,9 +315,7 @@ nav ul li a.active {
 }
 
 
-/* ============================
-   قسم Contact Me
-   ============================ */
+
 #contact {
   background-color: #d9d9d9;
   padding: 60px 10%;
@@ -342,7 +325,7 @@ nav ul li a.active {
 }
 
 #contact h2 {
-  color: #0077b6; /* سماوي جميل */
+  color: #0077b6; 
   font-size: 32px;
   margin-bottom: 20px;
 }
