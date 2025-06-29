@@ -158,7 +158,7 @@ nav ul li a.active {
    ============================ */
 
 #about {
-  background-color: #f2f2f2;
+  background-color: #e0e0e0;
   padding: 60px 10%;
   margin: 40px 0;
   scroll-margin-top: 170px;
@@ -191,7 +191,7 @@ nav ul li a.active {
    قسم Skills
    ============================ */
 #skills {
-  background-color: #f2f2f2; /* رمادي فاتح */
+  background-color: #e0e0e0; /* رمادي فاتح */
   padding: 60px 10%;
   border-radius: 8px;
   margin: 40px 0;
@@ -229,7 +229,7 @@ nav ul li a.active {
    قسم Projects
    ============================ */
 #projects {
-  background-color: #f2f2f2;
+  background-color: #e0e0e0;
   padding: 60px 10%;
   margin: 40px 0;
   scroll-margin-top: 80px;
@@ -297,7 +297,7 @@ nav ul li a.active {
    قسم Education
    ============================ */
 #education {
-  background-color: #f2f2f2;
+  background-color: #e0e0e0;
   padding: 60px 10%;
   margin: 40px 0;
   border-left: 6px solid #6a5acd; /* خط ديكوري */
@@ -334,7 +334,7 @@ nav ul li a.active {
    قسم Contact Me
    ============================ */
 #contact {
-  background-color: #f2f2f2;
+  background-color: #e0e0e0;
   padding: 60px 10%;
   margin: 40px 0;
   text-align: center;
