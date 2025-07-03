@@ -68,6 +68,8 @@ nav ul li a.active {
   flex: 1;
 }
 
+/* home section */
+
 .main-name {
   font-size: 64px;
   font-family: 'Playfair Display', serif;
@@ -148,6 +150,7 @@ nav ul li a.active {
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);
 }
 
+/* about section */
 
 #about {
   background-color: #d9d9d9;
@@ -179,9 +182,10 @@ nav ul li a.active {
   
 }
 
+/* skills section */
 
 #skills {
-  background-color: #d9d9d9; 
+  background-color: #f0ebea; 
   padding: 60px 10%;
   border-radius: 8px;
   margin: 40px 0;
@@ -215,6 +219,7 @@ nav ul li a.active {
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* projects section */
 
 #projects {
   background-color: #d9d9d9;
@@ -280,7 +285,7 @@ nav ul li a.active {
   background-color: #5947c1;
 }
 
-
+/* education section */
 
 #education {
   background-color: #d9d9d9;
@@ -314,7 +319,7 @@ nav ul li a.active {
   font-style: normal;
 }
 
-
+/* contact me section */
 
 #contact {
   background-color: #d9d9d9;
