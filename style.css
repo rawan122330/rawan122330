@@ -364,7 +364,7 @@ nav ul li a.active {
   }
 
   .hero img {
-    width: 70%;
+    width: 40%;
     margin-top: 20px;
   }
 
@@ -380,10 +380,5 @@ nav ul li a.active {
     flex-direction: column;
     gap: 10px;
   }
-}
-
-/* 3. Scroll offset لإصلاح مشكلة تنقل الشريط */
-section {
-  scroll-margin-top: 80px;
 }
 
