@@ -66,6 +66,7 @@ nav ul li a.active {
 
 .hero-left {
   flex : 1 ;
+  margin-bottom: 15px ;
 }
 
 /* home section */
@@ -150,11 +151,6 @@ nav ul li a.active {
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);
 }
 
-.hero-left {
-  margin-bottom: 15px ;
-}
-
-
 /* about section */
 
 #about {
@@ -194,7 +190,7 @@ nav ul li a.active {
   padding: 60px 10%;
   border-radius: 8px;
   margin: 40px 0;
-  scroll-margin-top: 30px;
+  scroll-margin-top: 25px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
