@@ -65,7 +65,7 @@ nav ul li a.active {
 }
 
 .hero-left {
-  flex: 1;
+  flex : 1 ;
 }
 
 /* home section */
@@ -149,6 +149,11 @@ nav ul li a.active {
   -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 130%);
   mask-image: radial-gradient(circle, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%);
 }
+
+.hero-left {
+  margin-bottom: 15px ;
+}
+
 
 /* about section */
 
